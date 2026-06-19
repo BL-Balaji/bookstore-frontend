@@ -1,0 +1,83 @@
+.product-card {
+
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0px 2px 10px
+        rgba(0,0,0,0.1);
+
+    height: 100%;
+}
+
+.product-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0px 5px 20px
+        rgba(0,0,0,0.2);
+}
+
+.product-image {
+
+    height: 250px;
+
+    object-fit: cover;
+
+    width: 100%;
+}
+
+.product-title {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    min-height: 50px;
+}
+
+.product-author {
+
+    color: gray;
+
+    font-size: 14px;
+}
+
+.product-price {
+
+    color: #198754;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+.old-price {
+
+    text-decoration: line-through;
+
+    color: gray;
+
+    margin-left: 10px;
+}
+
+.discount {
+
+    color: red;
+
+    font-weight: bold;
+}
+
+.rating {
+
+    color: orange;
+
+    font-size: 18px;
+}
